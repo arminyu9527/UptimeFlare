@@ -28,9 +28,10 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      get target() {
-        return `https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}`
-      },
+      target: 'https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}'
+      // get target() {
+      //   return `https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}`
+      // },
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
