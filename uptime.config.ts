@@ -77,9 +77,9 @@ const workerConfig: WorkerConfig = {
     // More info at Wiki: https://github.com/lyc8503/UptimeFlare/wiki/Setup-notification
     webhook: {
       // [Required] webhook URL (example: Telegram Bot API)
-      url: 'https://api.telegram.org/5828286049:AAHOuo6n-RAeD8LuVzhAo2D-0KiZ2z_Fcwc/sendMessage',
+      url: 'https://api.telegram.org/bot5828286049:AAHOuo6n-RAeD8LuVzhAo2D-0KiZ2z_Fcwc/sendMessage',
       // [Optional] HTTP method, default to 'GET' for payloadType=param, 'POST' otherwise
-      // method: 'POST',
+      method: 'POST',
       // [Optional] headers to be sent
       // headers: {
       //   foo: 'bar',
@@ -89,7 +89,7 @@ const workerConfig: WorkerConfig = {
       // 'param': append url-encoded payload to URL search parameters
       // 'json': POST json payload as body, set content-type header to 'application/json'
       // 'x-www-form-urlencoded': POST url-encoded payload as body, set content-type header to 'x-www-form-urlencoded'
-      payloadType: 'x-www-form-urlencoded',
+      payloadType: 'json',
       // [Required] payload to be sent
       // $MSG will be replaced with the human-readable notification message
       payload: {
