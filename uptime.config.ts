@@ -28,7 +28,7 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}'
+      target: 'https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}',
       // get target() {
       //   return `https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}`
       // },
