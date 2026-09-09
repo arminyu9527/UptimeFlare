@@ -28,14 +28,14 @@ const workerConfig: WorkerConfig = {
       // `method` should be a valid HTTP Method
       method: 'GET',
       // `target` is a valid URL
-      target: 'https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}',
+      target: 'https://ewewewew-g3hzfkhrckhsftb4.canadacentral-01.azurewebsites.net//?_t=${Date.now()}',
       // get target() {
       //   return `https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net/?_t=${Date.now()}`
       // },
       // [OPTIONAL] `tooltip` is ONLY used at status page to show a tooltip
       tooltip: 'This is a tooltip for this monitor',
       // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-      statusPageLink: 'https://ewewewew-g3hzfkhcrckhsftb4.canadacentral-01.azurewebsites.net',
+      statusPageLink: 'https://ewewewew-g3hzfkhrckhsftb4.canadacentral-01.azurewebsites.net',
       // [OPTIONAL] `expectedCodes` is an array of acceptable HTTP response codes, if not specified, default to 2xx
       expectedCodes: [200],
       // [OPTIONAL] `timeout` in millisecond, if not specified, default to 10000
