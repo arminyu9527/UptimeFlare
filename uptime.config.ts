@@ -58,6 +58,20 @@ const workerConfig: WorkerConfig = {
       // [OPTIONAL] if true, the check will fallback to local if the specified proxy is down
       // checkProxyFallback: true,
     },
+    {
+      id: 'alwaysdata',
+      name: 'Alwaysdata',
+      method: 'GET',
+      target: 'https://armin00.alwaysdata.net',
+      tooltip: 'This is a tooltip for this monitor',
+      statusPageLink: 'https://armin00.alwaysdata.net',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache'
+      },
+    }
     // Example TCP Monitor
     // {
     //   id: 'test_tcp_monitor',
