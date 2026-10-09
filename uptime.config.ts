@@ -71,6 +71,20 @@ const workerConfig: WorkerConfig = {
         'Cache-Control': 'no-cache, no-store, must-revalidate',
         'Pragma': 'no-cache'
       },
+    },
+    {
+      id: 'botkeep',
+      name: 'Botkeep',
+      method: 'GET',
+      target: 'https://s9nfn5.bot-keep.xyz',
+      tooltip: 'This is a tooltip for this monitor',
+      statusPageLink: 'https://s9nfn5.bot-keep.xyz',
+      expectedCodes: [200],
+      timeout: 10000,
+      headers: {
+        'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'Pragma': 'no-cache'
+      },
     }
     // Example TCP Monitor
     // {
